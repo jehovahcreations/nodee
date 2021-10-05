@@ -1,0 +1,20 @@
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "username":"benet",
+    "phone":"ggg@gg.com",
+    "password":"123456",
+    "parent":"patik",
+    "role":"bookie"
+    
+}
+
+# POST http://localhost:3000/reset
+# Content-Type: application/json
+
+# {
+#     "username":"benet",
+#     "phone":"ggg@g.com",
+#     "password":"123457"
+# }
